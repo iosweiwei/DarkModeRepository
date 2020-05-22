@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E8190D5247766A6008E2450 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8190D4247766A6008E2450 /* AppDelegate.m */; };
+		5E8190D8247766A6008E2450 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8190D7247766A6008E2450 /* SceneDelegate.m */; };
+		5E8190DB247766A6008E2450 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8190DA247766A6008E2450 /* ViewController.m */; };
+		5E8190DE247766A6008E2450 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E8190DC247766A6008E2450 /* Main.storyboard */; };
+		5E8190E1247766A6008E2450 /* YQDarkModeDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5E8190DF247766A6008E2450 /* YQDarkModeDemo.xcdatamodeld */; };
+		5E8190E3247766AA008E2450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E8190E2247766AA008E2450 /* Assets.xcassets */; };
+		5E8190E6247766AA008E2450 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E8190E4247766AA008E2450 /* LaunchScreen.storyboard */; };
+		5E8190E9247766AA008E2450 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8190E8247766AA008E2450 /* main.m */; };
+		5E8190F3247766AB008E2450 /* YQDarkModeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8190F2247766AB008E2450 /* YQDarkModeDemoTests.m */; };
+		5E8190FE247766AB008E2450 /* YQDarkModeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8190FD247766AB008E2450 /* YQDarkModeDemoUITests.m */; };
+		5E81910D247768A3008E2450 /* OverrideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E81910C247768A3008E2450 /* OverrideViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E8190EF247766AB008E2450 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E8190C8247766A6008E2450 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E8190CF247766A6008E2450;
+			remoteInfo = YQDarkModeDemo;
+		};
+		5E8190FA247766AB008E2450 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E8190C8247766A6008E2450 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E8190CF247766A6008E2450;
+			remoteInfo = YQDarkModeDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E8190D0247766A6008E2450 /* YQDarkModeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YQDarkModeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E8190D3247766A6008E2450 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5E8190D4247766A6008E2450 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5E8190D6247766A6008E2450 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		5E8190D7247766A6008E2450 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		5E8190D9247766A6008E2450 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5E8190DA247766A6008E2450 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5E8190DD247766A6008E2450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E8190E0247766A6008E2450 /* YQDarkModeDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YQDarkModeDemo.xcdatamodel; sourceTree = "<group>"; };
+		5E8190E2247766AA008E2450 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E8190E5247766AA008E2450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E8190E7247766AA008E2450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E8190E8247766AA008E2450 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E8190EE247766AB008E2450 /* YQDarkModeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YQDarkModeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E8190F2247766AB008E2450 /* YQDarkModeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQDarkModeDemoTests.m; sourceTree = "<group>"; };
+		5E8190F4247766AB008E2450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E8190F9247766AB008E2450 /* YQDarkModeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YQDarkModeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E8190FD247766AB008E2450 /* YQDarkModeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQDarkModeDemoUITests.m; sourceTree = "<group>"; };
+		5E8190FF247766AB008E2450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E81910B247768A3008E2450 /* OverrideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OverrideViewController.h; sourceTree = "<group>"; };
+		5E81910C247768A3008E2450 /* OverrideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OverrideViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E8190CD247766A6008E2450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E8190EB247766AB008E2450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E8190F6247766AB008E2450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E8190C7247766A6008E2450 = {
+			isa = PBXGroup;
+			children = (
+				5E8190D2247766A6008E2450 /* YQDarkModeDemo */,
+				5E8190F1247766AB008E2450 /* YQDarkModeDemoTests */,
+				5E8190FC247766AB008E2450 /* YQDarkModeDemoUITests */,
+				5E8190D1247766A6008E2450 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E8190D1247766A6008E2450 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E8190D0247766A6008E2450 /* YQDarkModeDemo.app */,
+				5E8190EE247766AB008E2450 /* YQDarkModeDemoTests.xctest */,
+				5E8190F9247766AB008E2450 /* YQDarkModeDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E8190D2247766A6008E2450 /* YQDarkModeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5E8190D3247766A6008E2450 /* AppDelegate.h */,
+				5E8190D4247766A6008E2450 /* AppDelegate.m */,
+				5E8190D6247766A6008E2450 /* SceneDelegate.h */,
+				5E8190D7247766A6008E2450 /* SceneDelegate.m */,
+				5E8190D9247766A6008E2450 /* ViewController.h */,
+				5E8190DA247766A6008E2450 /* ViewController.m */,
+				5E81910B247768A3008E2450 /* OverrideViewController.h */,
+				5E81910C247768A3008E2450 /* OverrideViewController.m */,
+				5E8190DC247766A6008E2450 /* Main.storyboard */,
+				5E8190E2247766AA008E2450 /* Assets.xcassets */,
+				5E8190E4247766AA008E2450 /* LaunchScreen.storyboard */,
+				5E8190E7247766AA008E2450 /* Info.plist */,
+				5E8190E8247766AA008E2450 /* main.m */,
+				5E8190DF247766A6008E2450 /* YQDarkModeDemo.xcdatamodeld */,
+			);
+			path = YQDarkModeDemo;
+			sourceTree = "<group>";
+		};
+		5E8190F1247766AB008E2450 /* YQDarkModeDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E8190F2247766AB008E2450 /* YQDarkModeDemoTests.m */,
+				5E8190F4247766AB008E2450 /* Info.plist */,
+			);
+			path = YQDarkModeDemoTests;
+			sourceTree = "<group>";
+		};
+		5E8190FC247766AB008E2450 /* YQDarkModeDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E8190FD247766AB008E2450 /* YQDarkModeDemoUITests.m */,
+				5E8190FF247766AB008E2450 /* Info.plist */,
+			);
+			path = YQDarkModeDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E8190CF247766A6008E2450 /* YQDarkModeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E819102247766AB008E2450 /* Build configuration list for PBXNativeTarget "YQDarkModeDemo" */;
+			buildPhases = (
+				5E8190CC247766A6008E2450 /* Sources */,
+				5E8190CD247766A6008E2450 /* Frameworks */,
+				5E8190CE247766A6008E2450 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YQDarkModeDemo;
+			productName = YQDarkModeDemo;
+			productReference = 5E8190D0247766A6008E2450 /* YQDarkModeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E8190ED247766AB008E2450 /* YQDarkModeDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E819105247766AB008E2450 /* Build configuration list for PBXNativeTarget "YQDarkModeDemoTests" */;
+			buildPhases = (
+				5E8190EA247766AB008E2450 /* Sources */,
+				5E8190EB247766AB008E2450 /* Frameworks */,
+				5E8190EC247766AB008E2450 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E8190F0247766AB008E2450 /* PBXTargetDependency */,
+			);
+			name = YQDarkModeDemoTests;
+			productName = YQDarkModeDemoTests;
+			productReference = 5E8190EE247766AB008E2450 /* YQDarkModeDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E8190F8247766AB008E2450 /* YQDarkModeDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E819108247766AB008E2450 /* Build configuration list for PBXNativeTarget "YQDarkModeDemoUITests" */;
+			buildPhases = (
+				5E8190F5247766AB008E2450 /* Sources */,
+				5E8190F6247766AB008E2450 /* Frameworks */,
+				5E8190F7247766AB008E2450 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E8190FB247766AB008E2450 /* PBXTargetDependency */,
+			);
+			name = YQDarkModeDemoUITests;
+			productName = YQDarkModeDemoUITests;
+			productReference = 5E8190F9247766AB008E2450 /* YQDarkModeDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E8190C8247766A6008E2450 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = vivian;
+				TargetAttributes = {
+					5E8190CF247766A6008E2450 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					5E8190ED247766AB008E2450 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 5E8190CF247766A6008E2450;
+					};
+					5E8190F8247766AB008E2450 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 5E8190CF247766A6008E2450;
+					};
+				};
+			};
+			buildConfigurationList = 5E8190CB247766A6008E2450 /* Build configuration list for PBXProject "YQDarkModeDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E8190C7247766A6008E2450;
+			productRefGroup = 5E8190D1247766A6008E2450 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E8190CF247766A6008E2450 /* YQDarkModeDemo */,
+				5E8190ED247766AB008E2450 /* YQDarkModeDemoTests */,
+				5E8190F8247766AB008E2450 /* YQDarkModeDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E8190CE247766A6008E2450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E8190E6247766AA008E2450 /* LaunchScreen.storyboard in Resources */,
+				5E8190E3247766AA008E2450 /* Assets.xcassets in Resources */,
+				5E8190DE247766A6008E2450 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E8190EC247766AB008E2450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E8190F7247766AB008E2450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E8190CC247766A6008E2450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E8190E9247766AA008E2450 /* main.m in Sources */,
+				5E8190DB247766A6008E2450 /* ViewController.m in Sources */,
+				5E81910D247768A3008E2450 /* OverrideViewController.m in Sources */,
+				5E8190E1247766A6008E2450 /* YQDarkModeDemo.xcdatamodeld in Sources */,
+				5E8190D5247766A6008E2450 /* AppDelegate.m in Sources */,
+				5E8190D8247766A6008E2450 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E8190EA247766AB008E2450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E8190F3247766AB008E2450 /* YQDarkModeDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E8190F5247766AB008E2450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E8190FE247766AB008E2450 /* YQDarkModeDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E8190F0247766AB008E2450 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E8190CF247766A6008E2450 /* YQDarkModeDemo */;
+			targetProxy = 5E8190EF247766AB008E2450 /* PBXContainerItemProxy */;
+		};
+		5E8190FB247766AB008E2450 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E8190CF247766A6008E2450 /* YQDarkModeDemo */;
+			targetProxy = 5E8190FA247766AB008E2450 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E8190DC247766A6008E2450 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E8190DD247766A6008E2450 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E8190E4247766AA008E2450 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E8190E5247766AA008E2450 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E819100247766AB008E2450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5E819101247766AB008E2450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E819103247766AB008E2450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MW4ATL8WR7;
+				INFOPLIST_FILE = YQDarkModeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yingqu.push.YQDarkModeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E819104247766AB008E2450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MW4ATL8WR7;
+				INFOPLIST_FILE = YQDarkModeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yingqu.push.YQDarkModeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5E819106247766AB008E2450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MW4ATL8WR7;
+				INFOPLIST_FILE = YQDarkModeDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yingqu.push.YQDarkModeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YQDarkModeDemo.app/YQDarkModeDemo";
+			};
+			name = Debug;
+		};
+		5E819107247766AB008E2450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MW4ATL8WR7;
+				INFOPLIST_FILE = YQDarkModeDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yingqu.push.YQDarkModeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YQDarkModeDemo.app/YQDarkModeDemo";
+			};
+			name = Release;
+		};
+		5E819109247766AB008E2450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MW4ATL8WR7;
+				INFOPLIST_FILE = YQDarkModeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yingqu.push.YQDarkModeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YQDarkModeDemo;
+			};
+			name = Debug;
+		};
+		5E81910A247766AB008E2450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MW4ATL8WR7;
+				INFOPLIST_FILE = YQDarkModeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yingqu.push.YQDarkModeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YQDarkModeDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E8190CB247766A6008E2450 /* Build configuration list for PBXProject "YQDarkModeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E819100247766AB008E2450 /* Debug */,
+				5E819101247766AB008E2450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E819102247766AB008E2450 /* Build configuration list for PBXNativeTarget "YQDarkModeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E819103247766AB008E2450 /* Debug */,
+				5E819104247766AB008E2450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E819105247766AB008E2450 /* Build configuration list for PBXNativeTarget "YQDarkModeDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E819106247766AB008E2450 /* Debug */,
+				5E819107247766AB008E2450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E819108247766AB008E2450 /* Build configuration list for PBXNativeTarget "YQDarkModeDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E819109247766AB008E2450 /* Debug */,
+				5E81910A247766AB008E2450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5E8190DF247766A6008E2450 /* YQDarkModeDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5E8190E0247766A6008E2450 /* YQDarkModeDemo.xcdatamodel */,
+			);
+			currentVersion = 5E8190E0247766A6008E2450 /* YQDarkModeDemo.xcdatamodel */;
+			path = YQDarkModeDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5E8190C8247766A6008E2450 /* Project object */;
+}
